@@ -74,35 +74,7 @@ public class Text {
         }
         union(fileNames, fileNames1, fileNames2);
         searchMatch(files, search);
-
-//
-
-
-//        Scanner scanner = new Scanner (System.in);
-//        String word = scanner.nextLine();
-//
-//        FileOutputStream fileOutputStream3 = null;
-//        try {
-//            fileOutputStream3 = new FileOutputStream("text3.txt");
-//            PrintStream printStream = new PrintStream(fileOutputStream3);
-//            printStream.println("Здесь используется многоступенчатая схема создания потоков. Вначале мы создаем " + "\n" +
-//                    "поток класса FileReader, привязанный к файлу. Затем при помощи класса BufferedReader мы " + "\n" +
-//                    "добавляем буферизацию. И, наконец, с помощью конструктора класса LineNumberReader мы " + "\n" +
-//                    "создаем поток, позволяющий контролировать номер текущей обрабатываемой строки.");
-//            FileInputStream fileInputStream3 = new FileInputStream("text3.txt");
-//            String output;
-//            while (output = FileInputStream("text3.txt")) {
-//                int index = output.indexOf(word);
-//                if(index != -1) {
-//                    System.out.println("В тексте есть слово " + word);
-//                }
-//            }
-//
-//
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        }
-
+        
 
 
     }
